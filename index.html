@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" >
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand brand-logo fw-bold text-warning">Foodie Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#restaurants">Restaurants</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+        <div class="container">
+            <h1 class="display-4 fw-bold hub">Welcome to Foodie Hub</h1>
+            <p class="lead">Order your favorite meals instantly!</p>
+        </div>
+    </section>
+
+    <section id="restaurants" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Popular Restaurants ]</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card restaurants-card h-100 shadow-sm">
+                        <img src="images/image1.jpg" class="card-img-top" alt="Italiano Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Italiano Pizza</h5>
+                            <p class="card-text">Delicious hand-crafted pizzas with fresh ingredients.</p>
+                            <a href="#menu-1" class="btn btn-outline-warning w-100">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card restaurants-card h-100 shadow-sm">
+                        <img src="images/image2.jpg" class="card-img-top" alt="Kabul kabab">
+                        <div class="card-body">
+                            <h5 class="card-title">Kabul Kabab</h5>
+                            <p class="card-text">Authentic Afghan Kebabs grilled to perfection.</p>
+                            <a href="#menu-2" class="btn btn-outline-warning w-100">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card restaurants-card h-100 shadow-sm">
+                        <img src="images/image3.jpg" class="card-img-top" alt="sushi zen">
+                        <div class="card-body">
+                            <h5 class="card-title">Sushi Zen</h5>
+                            <p class="card-text">Fresh sushi rools and Japanese delights.</p>
+                            <a href="#menu-3" class="btn btn-outline-warning w-100">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card restaurants-card h-100 shadow-sm">
+                        <img src="images/image4.jpg" class="card-img-top" alt="burger house">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger House</h5>
+                            <p class="card-text">Juicy burgers with crispy fries and sauces.</p>
+                            <a href="#menu-4" class="btn btn-outline-warning w-100">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu: Italiano Pizza-->
+    <section id="menu-1" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Menu - Italiano Pizza ]</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text">Classic tomato, mozzarella, and fresh basil.</p>
+                            <p><strong>8.99&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pepperoni Pizza</h5>
+                            <p class="card-text">Pepperoni slices on cheesy tomato base.</p>
+                            <p><strong>9.99&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Garlic Bread</h5>
+                            <p class="card-text">crispy garlic bread with butter and herbs.</p>
+                            <p><strong>3.99&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu: Kabul kebab-->
+    <section id="menu-2" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Menu - Kabul kebab ]</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Lamb Kebab</h5>
+                            <p class="card-text">Juicy lamb skewers grilled with Afghan spices.</p>
+                            <p><strong>7.50&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">chicken Tikka</h5>
+                            <p class="card-text">Tender chicken marinated in yogurt and spice</p>
+                            <p><strong>6.99&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Afghan Bread</h5>
+                            <p class="card-text">Fresh, warm, traditional Afghan bread.</p>
+                            <p><strong>1.50&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu: sushi zen-->
+    <section id="menu-3" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Menu - Sushi Zen ]</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">California Roll</h5>
+                            <p class="card-text">Crab, avocado, cucumber wrapped in seaweed and rice.</p>
+                            <p><strong>6.50&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Salmon Nigiri</h5>
+                            <p class="card-text">Fresh salmon on seasoned rice with wasabi.</p>
+                            <p><strong>4.50&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Miso Soup</h5>
+                            <p class="card-text">Traditional Japanese soup with tofu, seaweed and scallions.</p>
+                            <p><strong>2.00&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Menu: Burger House-->
+    <section id="menu-4" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Menu - Burger House ]</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Beef Burger</h5>
+                            <p class="card-text">Grilled beef patty, lettuce, tomato, cheese and sauce.</p>
+                            <p><strong>5.99&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Spicy chicken Burger</h5>
+                            <p class="card-text">Crispy chicken fillet with spicy mayo and pickles.</p>
+                            <p><strong>6.50&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheesy Fries</h5>
+                            <p class="card-text">Golden fries topped with melted cheddar and herbs.</p>
+                            <p><strong>3.49&</strong></p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section id="about" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="images/hero1.jpg" alt="about us" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3">🔸 About Foodie Hub</h3>
+                    <p>Foodie Hub is your gateway to delicious food from the best local restaurants. Our platform makes
+                        it easy to browse menus, place orders, and enjoy meals from the comfort of your home. We believe
+                        in fast, friendly, and fresh service — every time.</p>
+                    <p>Whether you're craving spicy kebabs or sweet desserts, Foodie Hub has got you covered!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--form-->
+    <section id="order" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">[ Place Your Order ]</h2>
+            <form active="#" method="post">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="customerName" class="form-label">Customer Name</label>
+                        <input type="text" id="customerName" name="customerName" class="form-control"
+                            placeholder="Your Full Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="customerName" class="form-label">Phone Number</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="+93..."
+                            required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="restaurantSelect" class="form-label">Select Restaurants</label>
+                        <select id="restaurantSelect" name="restaurantSelect" class="form-select" required>
+                            <option value="">Choose a Restaurants</option>
+                            <option>Italiano Pizza</option>
+                            <option>Kabul kebab</option>
+                            <option>Sushi Zen</option>
+                            <option>Burger House</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label d-block">Select Items</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="items[]" id="item1"
+                                value="Margherita Pizza">
+                            <label class="form-check-label" for="item1">Margherita Pizza</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="items[]" id="item2"
+                                value="Lamb kebab">
+                            <label class="form-check-label" for="item1">Lamb kebab</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="items[]" id="item3"
+                                value="Burger Classic">
+                            <label class="form-check-label" for="item1">Burger Classic</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="items[]" id="item3"
+                                value="California Roll">
+                            <label class="form-check-label" for="item1">California Roll</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning px-5">Submit Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer id="contact" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6">
+                    <p><i class="bi bi-envelope me-2"></i>foodie@example.com</p>
+                    <p><i class="bi bi-telephone me-2"></i>+93 123 456 789</p>
+                    <p><i class="bi bi-geo-alt me-2"></i>Herat, Afghanistan</p>
+                </div>
+                <div class="col-md-6 text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+                </div>
+            </div>
+            <hr class="my-3" style="border-top: 1px solid rgba(255, 255, 255, 0.2);">
+            <p class="text-center m-0">&copy;2025 Foodie Hub. All rights reserved.</p>
+        </div>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+    
+</html>
